@@ -197,11 +197,15 @@ footer {
     padding: 0 20px;
     flex-direction: row;
     justify-content: space-between;
-    gap: 60px;
+    // gap: 60px;
   }
 
   .card-wrapper > .card {
     max-width: 400px;
+  }
+
+  .card-wrapper > * + * {
+    margin-left: 60px;
   }
 
   .card1 {

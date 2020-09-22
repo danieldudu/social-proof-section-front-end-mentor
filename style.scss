@@ -180,7 +180,13 @@ footer {
   .rating {
     grid-column: 2 / span 1;
     width: 600px;
+    
    }
+
+  .rating-card {
+    flex-direction: row;
+    width: 600px;
+  }
 
   .rating1 {
     align-self: flex-start;

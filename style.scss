@@ -185,7 +185,8 @@ footer {
 
   .rating-card {
     flex-direction: row;
-    width: 600px;
+    justify-content: space-around;
+    width: 400px;
   }
 
   .rating1 {
@@ -203,7 +204,7 @@ footer {
     padding: 0 20px;
     flex-direction: row;
     justify-content: space-between;
-    // gap: 60px;
+    gap: 60px;
   }
 
   .card-wrapper > .card {

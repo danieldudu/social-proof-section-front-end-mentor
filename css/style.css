@@ -219,6 +219,15 @@ footer {
     grid-column: 2 / span 1;
     width: 600px;
   }
+  .rating-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 400px;
+  }
   .rating1 {
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -246,6 +255,9 @@ footer {
   }
   .card-wrapper > .card {
     max-width: 400px;
+  }
+  .card-wrapper > * + * {
+    margin-left: 60px;
   }
   .card1 {
     -ms-flex-item-align: start;
